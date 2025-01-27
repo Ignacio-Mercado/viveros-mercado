@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.header-nav {
+    background-color: hsl(119, 67%, 29%);
+    border-bottom: 1px solid hsl(119, 71%, 16%);
+}
+
+.nav-logo {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    left: 30px;
+}
+
+.nav-logo-img {
+    width: 270px;
+    height: 150px;
+    opacity: 0.3;
+    border-radius: 50%;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+.nav-logo-txt {
+    color: whitesmoke;
+    background-color: hsl(118, 40%, 45%);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 115px;
+    right: 250px;
+    
+}
+
+.nav-logo a {
+    text-decoration: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.nav-links li a:hover {
+    color:hsl(30, 100%, 50%);
+    text-shadow: 1px 3px 1px whitesmoke;
+    transition-duration: 300ms;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    list-style: none;
+    position: relative;
+    bottom: 70px;
+    margin-right: 40px;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.link-1 {
+    background-color:hsl(119, 70%, 15%);
+    padding: 1px 1px 1px 10px;
+}
+
+.section-products {
+    background-color: whitesmoke;
+}
+
+.title-section-products {
+    display: grid;
+    place-items: center;
+    color: black;
+    text-shadow: 1px 3px 1px hsl(30, 100%, 50%);
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.search-products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-products input {
+    border-radius: 40px;
+    padding: 10px;
+    margin: 15px;
+    width: 400px;
+}
+
+.btn-search-products {
+    border-radius: 45%;
+    height: 35px;
+    padding: 17px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lupa-btn {
+    width: 25px;
+}
+
+.products-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+
+.product-img {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.product {
+    display: flex; 
+    flex-direction: column-reverse;
+    align-items: center;
+    letter-spacing: 5px;
+    transition: 700ms;
+}
+
+.product h2 {
+    margin: 10px 0px 10px 0px;
+}
+
+.product:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.img-icon {
+    width: 45px;
+}
+
+.footer {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(hsl(119, 67%, 29%), hsl(30, 100%, 50%), hsl(119, 67%, 29%));
+    border-top: 1px solid hsl(119, 71%, 16%);
+}
+
+.footer-contact ul {
+    display: grid;
+    gap: 15px;
+}
+
+.footer a {
+    text-decoration: none;
+    
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer-legal ul {
+    display: grid;
+    gap: 10px;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.footer ul li {
+    font-size: 20px;
+}
