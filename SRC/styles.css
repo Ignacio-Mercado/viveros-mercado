@@ -38,7 +38,7 @@ body {
     position: relative;
     top: 115px;
     right: 250px;
-    
+    box-shadow: 8px 5px 9px darkolivegreen;
 }
 
 .nav-logo a {
@@ -83,7 +83,7 @@ body {
 }
 
 .banner {
-    background: url(/images/vivero-forestal-Hillu-Wald-3-696x313.jpg)no-repeat;
+    background: url(./images/vivero-forestal-1.jpg)no-repeat;
     height: 550px;
     background-size: cover;
     image-rendering: high-quality;
@@ -177,11 +177,46 @@ body {
     color: hsl(30, 100%, 50%);
 }
 
-.icons-section-1 {
+.icons-section-2 {
     display: flex;
-
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: hsl(30, 100%, 50%);
 }
 
+.icons-section-2 h3 {
+    color: rgb(1, 10, 1);
+    font-family: "Allerta Stencil", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.icon-img-section-2 {
+    width: 70px;
+    height: 70px;
+}
+
+.icons-title-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.icons-title-img::before {
+    content: "|"; quiero poner una barra de seperación entre elementos
+} */
+
+.trees {
+    height: 90px;
+}
+
+.title-trees {
+    padding-bottom: 25px;
+}
 
 .footer {
     height: 150px;

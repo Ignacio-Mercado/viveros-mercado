@@ -42,7 +42,7 @@ body {
     position: relative;
     top: 115px;
     right: 250px;
-    
+    box-shadow: 8px 5px 9px darkolivegreen;
 }
 
 .nav-logo a {
@@ -136,6 +136,7 @@ body {
     width: 400px;
     height: 300px;
     border-radius: 5px;
+    box-shadow: 10px 10px 20px black;
 }
 
 .product {
