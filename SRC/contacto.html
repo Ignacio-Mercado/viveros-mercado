@@ -6,6 +6,45 @@
     <title>Contacto</title>
 </head>
 <body>
-    
+    <header>
+        <nav class="header-nav">
+            <div class="nav-logo">
+                <a href="#"><img src="./images/logo-principal.png" alt="logo" class="nav-logo-img" /></a>
+                <a href="#"><h1 class="nav-logo-txt">Viveros·Mercado</h1></a>
+            </div>
+            <ul class="nav-links">
+                <li class="link-1"><a href="productos.html">Productos</a></li>
+                <li class="link-2"><a href="servicios.html">Servicios</a></li>
+                <li class="link-3"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <fieldset class="form">
+                <legend>Ponte en contacto con nosotros</legend>
+                <label for="name">Nombre: <input type="text" id="name" class="input-form" /></label>
+                <label for="last-name">Apellidos: <input type="text" id="last-name" class="input-form" /></label>
+                <label for="email">Correo: <input type="email" id="email" placeholder="example@gmail.com" class="input-form" /></label>
+            </fieldset>
+            <fieldset class="know-us">
+                <legend>¿Como nos has conocido?</legend>
+                <label for="checkbox-1">Internet <input type="checkbox" id="checkbox-1" /></label>
+                <label for="checkbox-2">A través de un amigo <input type="checkbox" id="checkbox-2" /></label>
+                <label for="checkbox-3">Televisión <input type="checkbox" id="checkbox-3" /></label>
+                <label for="other">Otros <input type="text" id="other" placeholder="Escribe aquí..." /></label>
+            </fieldset>
+            <fieldset class="sugerencia">
+                <legend>¿Alguna sugerencia?</legend>
+                <textarea class="form-text" placeholder="Escribe tu sugerencia aquí..."></textarea>
+            </fieldset>
+            <fieldset class="legal-form">
+                <legend>Condiciones generales y legales</legend>
+                <h3>Con este documento usted acepta que ha leído las condiciones establecidas por nuestro departamento</h3>
+                <a href="#">Condiciones · Artículo 345/2-55</a>
+                <label for="checkbox-legal"><input type="checkbox" id="checkbox-legal" required /> Acepto y confirmo que he leído los documentos necesarios para continuar con el formulario</label>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
